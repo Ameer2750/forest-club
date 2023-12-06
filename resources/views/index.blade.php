@@ -1,33 +1,24 @@
 <x-header />
 <div>
 
+    <!-- carousel start -->
 
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div class="relative h-[450px] overflow-hidden">
             <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-1.svg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <div class="hidden duration-700 ease-in-out     object-center" data-carousel-item>
+                <img src="{{asset('images\sliderImages\s1.jpg')}}"
+                    class="absolute block w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-2.svg"
+                <img src="{{asset('images\sliderImages\sl-2.jpg')}}"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-3.svg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-4.svg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-            </div>
-            <!-- Item 5 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-5.svg"
+                <img src="{{asset('images\sliderImages\s3.jpg')}}"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
@@ -39,10 +30,6 @@
                 data-carousel-slide-to="1"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
                 data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
-                data-carousel-slide-to="3"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-                data-carousel-slide-to="4"></button>
         </div>
         <!-- Slider controls -->
         <button type="button"
@@ -72,6 +59,39 @@
             </span>
         </button>
     </div>
+
+    <!-- carousel end -->
+    <div class="flex flex-row justify-between items-center mx-[5rem] my-14 gap-10">
+
+        <div class="bg-[#303030] py-10 px-8 w-96 h-full flex-grow">
+            <h3 class="text-[#62b726] font-semibold">CORPORATE</h3>
+            <br>
+            <p class="text-[#ffffff] font-semibold text-sm">
+                Corporate Drifit Plain Polo Red Casual T Shirt Corporate Drifit Plain Polo Orange Casual T Shirt [...]
+            </p>
+        </div>
+
+        <div class="bg-[#303030] py-10 px-8 font-semi bold w-96 flex-grow">
+            <h3 class="text-[#62b726] font-semibold">CASUALS</h3>
+            <br>
+            <p class="text-white text-sm">
+                Drifit Round Neck Red Casual T Shirt Drifit Round Neck Navy Blue Casual T Shirt [...]
+            </p>
+        </div>
+
+        <div class="bg-[#303030] py-10 px-8 font-semi bold w-96 h-full flex-grow">
+            <h3 class="text-[#62b726] font-semibold">SPORTS</h3>
+            <br>
+
+            <p class="text-white text-sm">
+                Customized Make to Order
+            <br><br><br><br>
+            </p>
+
+        </div>
+
+    </div>
+
 
 </div>
 <x-footer />

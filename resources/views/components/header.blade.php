@@ -37,8 +37,8 @@
                 <img src="{{asset('images/forest-club-logo.png')}}" alt="">
             </div>
             <div class="flex flex-row gap-6">
-                <div class="flex flex-row items-center gap-4">
-                    <span class="material-symbols-outlined text-4xl">
+                <div class="flex flex-row items-center gap-4 border-r pr-5">
+                    <span class="material-symbols-outlined text-4xl ">
                         phone_iphone
                     </span>
                     <span>
@@ -47,7 +47,8 @@
                         +91 7999223344
                     </span>
                 </div>
-                <div class="flex flex-row items-center gap-4">
+                <div class="flex flex-row items-center gap-4
+                border-r pr-5">
                     <span class="material-symbols-outlined text-4xl">
                         phone_iphone
                     </span>
