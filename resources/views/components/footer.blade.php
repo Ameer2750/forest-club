@@ -70,7 +70,7 @@
 
 
     <div class="w-[25%]">
-        <h5 class="text-xl font-semibold">LOCATION</h5>
+        <h5 class="text-xl mb-7 font-semibold">LOCATION</h5>
         <div class="w-full">
             <x-map />
         </div>

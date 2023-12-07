@@ -26,7 +26,7 @@
     <title>Forest club</title>
 </head>
 
-<body class="w-full h-full">
+<body class="w-full h-full bg-[#f6f6f6]">
     <style>
         .material-symbols-outlined {
             font-variation-settings:

@@ -1,4 +1,4 @@
-<div class="md:w-[100%] w-full h-[220px]" id="map"></div>
+<div class="w-full h-[180px]" id="map"></div>
 <!-- map implementation -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -9,8 +9,8 @@
         function initMap() {
             map = L.map('map', {
                 center: {
-                    lat: 28.626137,
-                    lng: 79.821603,
+                    lat: 17.461220917284052,
+                    lng: 78.50484608465712,
                 },
                 zoom: 15
             });
@@ -58,7 +58,10 @@
         }
 
         const data = {
-            position: { lat: 28.625043, lng: 79.810135 },
+            position: {
+                lat: 17.461220917284052,
+                lng: 78.50484608465712,
+            },
             draggable: true
         };
 

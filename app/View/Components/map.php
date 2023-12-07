@@ -26,9 +26,10 @@ class map extends Component
         $initialMarkers = [
             [
                 'position' => [
-                    'lat' => 17.769910132160778,
-                    'lng' => 78.62117428835806
+                    'lat' => 17.461220917284052,
+                    'lng' => 78.50484608465712
                 ],
+                 
                 'draggable' => true
             ]
         ];
