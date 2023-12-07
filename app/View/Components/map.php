@@ -23,6 +23,15 @@ class map extends Component
      */
     public function render()
     {
-        return view('components.map');
+        $initialMarkers = [
+            [
+                'position' => [
+                    'lat' => 17.769910132160778,
+                    'lng' => 78.62117428835806
+                ],
+                'draggable' => true
+            ]
+        ];
+        return view('components.map', compact('initialMarkers'));
     }
 }
