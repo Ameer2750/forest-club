@@ -1,4 +1,4 @@
-<div class="md:w-[50%] w-full h-[400px]" id="map"></div>
+<div class="md:w-[100%] w-full h-[220px]" id="map"></div>
 <!-- map implementation -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {

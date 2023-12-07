@@ -75,7 +75,8 @@
                     <div class="text-[#62b726]">
                         <div class="font-bold text-xl mb-2">CORPORATE</div>
                         <p class="text-white text-base">
-                        Corporate Drifit Plain Polo Red Casual T Shirt Corporate Drifit Plain Polo Orange Casual T [...]
+                            Corporate Drifit Plain Polo Red Casual T Shirt Corporate Drifit Plain Polo Orange Casual T
+                            [...]
                         </p>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
                     <div class=" text-[#62b726]">
                         <div class="font-bold text-xl mb-2">CASUALS</div>
                         <p class="text-white  text-base">
-                        Drifit Round Neck Red Casual T Shirt Drifit Round Neck Navy Blue Casual T Shirt [...]
+                            Drifit Round Neck Red Casual T Shirt Drifit Round Neck Navy Blue Casual T Shirt [...]
                         </p>
                     </div>
                 </div>
@@ -98,12 +99,12 @@
 
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
             <div class="relative">
-                <img class="w-72"    src="{{asset('images/card-bg.jpg')}}" alt="...">
+                <img class="w-72" src="{{asset('images/card-bg.jpg')}}" alt="...">
                 <div class="absolute -top-10 -left-6   right-0 bottom-0 flex items-center justify-center">
                     <div class="text-[#62b726]">
                         <div class="font-bold text-xl mb-2">SPORTS</div>
                         <p class="text-white text-base">
-                        Customized Make to Order
+                            Customized Make to Order
                         </p>
 
                     </div>
@@ -116,9 +117,10 @@
 
     <!-- card end -->
 
-    
 
-    
+
+
+
 
 </div>
 
