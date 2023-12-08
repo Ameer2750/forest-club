@@ -71,10 +71,10 @@
         <div>
             <nav class="flex flex-row justify-center bg-black py-4 ">
                 <ul class="flex flex-row  gap-6 text-white">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
                     <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </nav>
         </div>

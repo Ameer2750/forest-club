@@ -1,4 +1,4 @@
-<div class="w-[25%] bg-white p-10 flex flex-col gap-6 drop-shadow-md">
+<div class=" bg-white p-10 flex flex-col gap-6 drop-shadow-md">
     <div>
         <h2 class="mb-2 text-2xl font-semibold">Our Products</h2>
         <hr>

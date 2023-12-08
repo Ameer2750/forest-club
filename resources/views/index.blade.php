@@ -119,8 +119,7 @@
 
 
 
-    <x-our-products />
-    <x-get-in-touch  />
+   
 
 
 

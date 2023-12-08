@@ -1,4 +1,4 @@
-<div class="w-[25%] bg-white p-10 flex flex-col gap-6 drop-shadow-md mt-8">
+<div class=" bg-white p-10 flex flex-col gap-6 drop-shadow-md mt-8">
     <div>
         <h3 class="text-2xl font-semibold mb-2">Get in Touch
         </h3>
