@@ -1,4 +1,7 @@
-<div class="w-full h-[180px]" id="map"></div>
+
+@props(['mapId' => 'defaultMapId'])
+
+<div class="w-full h-[180px]" id="{{$mapId}}"></div>
 <!-- map implementation -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -7,7 +10,7 @@
         const initialMarkers = @json($initialMarkers);
 
         function initMap() {
-            map = L.map('map', {
+            map = L.map('{{$mapId}}', {
                 center: {
                     lat: 17.461220917284052,
                     lng: 78.50484608465712,
