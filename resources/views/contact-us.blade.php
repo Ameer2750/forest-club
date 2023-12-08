@@ -3,11 +3,11 @@
     <div class="w-[75%] m-10 bg-white p-10  flex flex-col">
         <div class="flex flex-row justify-between items-center gap-6">
             <div class="w-[50%]">
-                <h3 class="mb-3 text-[#5c5c5c] font-bold">FACTORY ADDRESS
+                <h3 class="mb-8 text-[#5c5c5c] font-bold">FACTORY ADDRESS
 
                 </h3>
                 <hr>
-                <h3 class="mt-3  text-[#5c5c5c] font-bold">TISMA CREATIONS</h3>
+                <h3 class="mt-8  text-[#5c5c5c] font-bold">TISMA CREATIONS</h3>
                 <p class="mt-4">
 
                     59, Kakaguda Rd, Jyothi Colony, Jupiter Colony, Brooke Bond Colony, Karkhana, Secunderabad,
@@ -29,11 +29,11 @@
 
         <div class="flex flex-row justify-between items-center gap-6">
         <div class="w-[50%]">
-                <h3 class="mb-3  text-[#5c5c5c] font-bold">DEALER ADDRESS
+                <h3 class="mb-8  text-[#5c5c5c] font-bold">DEALER ADDRESS
 
                 </h3>
                 <hr>
-                <h3 class="mt-3  text-[#5c5c5c] font-bold">KB CORPORATION</h3>
+                <h3 class="mt-8  text-[#5c5c5c] font-bold">KB CORPORATION</h3>
                 <p class="mt-4">
                     1091, 1st Floor, Above Creative Cloud Anant Balkrushn Naik Road, Shubash Nagar, Shukarwar Peth,
                     Subhash Nagar, Shukrawar Peth, Pune, Maharashtra 411002
@@ -59,7 +59,7 @@
 
         <div class="flex flex-row justify-between items-center gap-6">
             <div class="w-[50%]">
-                <h3 class="mb-3  text-[#5c5c5c] font-bold">SRHREE RAJ PRINTS
+                <h3 class="mb-8  text-[#5c5c5c] font-bold">SRHREE RAJ PRINTS
 
                 </h3>
                 <hr>
@@ -119,3 +119,4 @@
 
 
 </div>
+<x-footer />
